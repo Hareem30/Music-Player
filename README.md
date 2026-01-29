@@ -1,2 +1,42 @@
-# Music-Player
-A basic music player created using Python. It has four buttons which need to be uploaded in the same folder as your code. The buttons include a pause, play, previous, and next button. The songs must also be uploaded via a mp3 player or WAV anything else will not work. The songs must be in a seperate folder within the same folder as your code and will play automatically once run.
+# Python Music Player
+
+## Overview
+This project is a basic music player application developed using Python.  
+It provides a simple graphical interface that allows users to play, pause, and navigate through audio tracks using on-screen controls.
+
+## Features
+- Play and pause audio playback  
+- Navigate to the previous or next track  
+- Automatically loads and plays audio files on launch  
+- Simple and lightweight design  
+
+## Controls
+The interface includes four buttons:
+- **Play**
+- **Pause**
+- **Previous**
+- **Next**
+
+Button image files must be located in the same directory as the Python source code.
+
+## Supported Audio Formats
+- MP3  
+- WAV  
+
+> Other audio formats are not supported.
+
+## Project Structure
+For the application to function correctly, files must be organized as follows:
+
+project-folder/
+│
+├── main.py
+├── play.png
+├── pause.png
+├── next.png
+├── previous.png
+│
+└── music/
+    ├── song1.mp3
+    ├── song2.wav
+    └── song3.mp3
