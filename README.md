@@ -27,7 +27,7 @@ Button image files must be located in the same directory as the Python source co
 
 ## Project Structure
 For the application to function correctly, files must be organized as follows:
-
+```text
 project-folder/
 │
 ├── main.py
